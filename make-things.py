@@ -12,7 +12,7 @@ def main():
         for pic in pictures:
             # if the pic ends with .png, .jpg, or .jpeg only
             if pic.endswith('.png') or pic.endswith('.jpg') or pic.endswith('.jpeg'):
-                if pic != 'make-things.py' and pic != 'README.md':
+                if pic != 'make-things.py' and pic != 'README.md' and pic != 'rewrite-files.py':
                     readme.write('\n')
                     sntzepic = pic.replace(' ', '\\ ')
                     mrkdwnpic = (f'![{pic}](https://raw.githubusercontent.com/irishgordo/v112-v113rc1-airgap/main/{pic})')
